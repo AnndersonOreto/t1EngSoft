@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Astah-Edition: all
+Astah-Version: 6.7
+Bnd-LastModified: 1522851028550
+Build-Jdk: 1.8.0_151
+Built-By: 16180510
+Bundle-Activator: com.example.Activator
+Bundle-Description: %bundle.description
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundle.name
+Bundle-SymbolicName: com.example.contador; singleton:=true
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime;type=!pom
+Embed-Transitive: true
+Export-Package: com.example;version="1.0.0.SNAPSHOT";uses:="com.change_v
+ ision.jude.api.inf.ui,org.osgi.framework"
+Import-Package: com.change_vision.jude.api.inf.exception;resolution:=opt
+ ional,com.change_vision.jude.api.inf.model;resolution:=optional,com.cha
+ nge_vision.jude.api.inf.project;resolution:=optional,com.change_vision.
+ jude.api.inf.ui;resolution:=optional,javax.swing;resolution:=optional,o
+ rg.osgi.framework;resolution:=optional;version="[1.5,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.3.0.201609221906
